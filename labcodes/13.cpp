@@ -51,10 +51,13 @@ void printInOrder(const TreeNode* root){
 int main() {
     TreeNode* root = nullptr;
 
-    root = insertBST(root, 10);
-    root = insertBST(root, 5);
     root = insertBST(root, 15);
-    root = insertBST(root, 3);
+    root = insertBST(root, 6);
+    root = insertBST(root, 23);
+    root = insertBST(root, 4);
+    
+    root = insertBST(root, 7);
+    root = insertBST(root, 71);
 
     printInOrder(root);
     
